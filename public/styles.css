@@ -1,0 +1,79 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    margin: 30px 30px 10px;
+}
+
+.add-message-btn {
+    padding: 15px 20px;
+    font-size: 1.5rem;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.messages-container {
+    text-align: left;
+    margin-left: 150px;
+}
+
+li {
+    list-style: none;
+    border-left: 2px solid black;
+    margin: 20px 0px;
+    padding-left: 15px;
+}
+
+.author-name {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.author {
+    font-size: 0.75rem;
+    margin-bottom: 15px;
+}
+
+.add-message-form {
+    border: 2px solid black;
+    margin: 50px 50px;
+    padding: 20px 30px;
+    border-radius: 12px;
+    text-align: left;
+    display: inline-block;
+}
+
+input, textarea {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+}
+
+input {
+    width: 50vw;
+}
+
+label {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.message-send-btn {
+    padding: 10px 15px;
+    font-size: 1.25rem;
+    border-radius: 8px;
+    margin-top: 10px;
+}
